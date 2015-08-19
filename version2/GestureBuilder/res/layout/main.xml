@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/draw_a_gesture"
+            />
+    <android.gesture.GestureOverlayView
+            android:id="@+id/gestures"
+            android:fadeOffset="1000"
+            android:fadeEnabled="true"
+            android:gestureStrokeType="multiple"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1.0"/>
+</LinearLayout>

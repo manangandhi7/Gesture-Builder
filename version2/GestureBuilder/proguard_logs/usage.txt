@@ -1,0 +1,23 @@
+com.example.GestureApp.GestureHolder:
+    22:23:public void setGesture(android.gesture.Gesture)
+    30:31:public void setNaam(java.lang.String)
+pack.GestureApp.BuildConfig
+pack.GestureApp.GestureActivity:
+    private static final java.lang.String TAG
+pack.GestureApp.GestureAdapter
+pack.GestureApp.GestureAdapter$GestureViewHolder
+pack.GestureApp.GestureHolder
+pack.GestureApp.GestureListActivity:
+    private static final java.lang.String TAG
+pack.GestureApp.R
+pack.GestureApp.R$attr
+pack.GestureApp.R$color
+pack.GestureApp.R$drawable
+pack.GestureApp.R$id
+pack.GestureApp.R$layout
+pack.GestureApp.R$menu
+pack.GestureApp.R$raw
+pack.GestureApp.R$string
+pack.GestureApp.R$style
+pack.GestureApp.SaveGestureActivity:
+    private static final java.lang.String TAG
