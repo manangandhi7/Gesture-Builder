@@ -24,6 +24,7 @@ public class GestureActivity extends Activity {
 
         GestureOverlayView gestures = (GestureOverlayView) findViewById(R.id.gestures);
         gestures.addOnGesturePerformedListener(handleGestureListener);
+        gestures.setGestureStrokeAngleThreshold(90.0f);
     }
 
     /**
