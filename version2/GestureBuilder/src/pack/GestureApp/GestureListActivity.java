@@ -12,8 +12,8 @@ import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.*;
-import com.example.GestureApp.GestureAdapter;
-import com.example.GestureApp.GestureHolder;
+import pack.GestureApp.GestureAdapter;
+import pack.GestureApp.GestureHolder;
 import pack.GestureApp.R;
 
 import java.util.ArrayList;
