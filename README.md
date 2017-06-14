@@ -6,9 +6,10 @@ App link : https://play.google.com/store/apps/details?id=pack.GestureApp
 
 I use IntelliJ IDEA.
 
-*** Update ***
+***Update***
+
 This is an old project and need update.
-In particular, it does not use Gradle build. If you are interested, create a pull request. ***
+In particular, it does not use Gradle build. If you are interested, create a pull request.
 
 
 PS: If you like the app, give it 5-star rating!
