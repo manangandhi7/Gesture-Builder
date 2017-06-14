@@ -8,10 +8,7 @@ I use IntelliJ IDEA.
 
 PS: If you like the app, give it 5-star rating!
 
-***<Update>***
+***Update***
 
 This is an old project and need update.
 In particular, it does not use Gradle build. If you are interested, create a pull request.
-
-***</Update>***
-
