@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="60dp"
+              android:padding="1dp">
+    <ImageView
+            android:id="@+id/gesture_image"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:paddingLeft="6dp"
+            android:layout_gravity="right|center_vertical"
+            android:src="@mipmap/ic_launcher"
+            />    <!-- android:layout_height=fill_parent-->
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="10dp">
+
+        <TextView
+                android:id="@+id/gesture_name"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="Alpha"
+                android:textColor="@color/orange"
+                android:textSize="30dp"
+                android:layout_gravity="left"/>
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="fill_parent"
+                  android:gravity="right">
+
+        <ImageView
+                android:id="@+id/menu_item_options"
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                android:src="@android:drawable/ic_menu_more"
+                android:paddingRight="12dp"
+                android:onClick="populateMenu"
+                android:layout_gravity="right|center_vertical"/>
+        <TextView
+                android:id="@+id/gesture_id"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:visibility="gone"
+                android:text="gesture id"
+                android:layout_gravity="left"/>
+        <TextView
+                android:id="@+id/gesture_name_ref"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:visibility="gone"
+                android:textSize="0dp"
+                />
+    </LinearLayout>
+</LinearLayout>
