@@ -7,6 +7,6 @@ App link : https://play.google.com/store/apps/details?id=pack.GestureApp
 
 PS: If you like the app, give it 5-star rating!
 
-***Update***
+***NOTE***
 
 Please create a feature request / a pull request / issue if interested.
