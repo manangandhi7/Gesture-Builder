@@ -37,7 +37,7 @@ public class GestureListActivity extends Activity {
         setContentView(R.layout.gestures_list);
         Log.d(TAG, getApplicationInfo().dataDir);
 
-        openOptionsMenu();
+        //openOptionsMenu();
 
         mGestureListView = (ListView) findViewById((R.id.gestures_list));
         mGestureList = new ArrayList<GestureHolder>();
@@ -56,7 +56,7 @@ public class GestureListActivity extends Activity {
         setContentView(R.layout.gestures_list);
         Log.d(TAG, getApplicationInfo().dataDir);
 
-        openOptionsMenu();
+        //openOptionsMenu();
 
         mGestureListView = (ListView) findViewById((R.id.gestures_list));
         mGestureList = new ArrayList<GestureHolder>();

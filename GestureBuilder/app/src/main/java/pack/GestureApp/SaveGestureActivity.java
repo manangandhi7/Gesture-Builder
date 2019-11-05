@@ -29,7 +29,7 @@ public class SaveGestureActivity extends Activity  {
         setContentView(R.layout.save_gesture);
         Log.d(TAG, "path = " + Environment.getExternalStorageDirectory().getAbsolutePath());
 
-        openOptionsMenu();
+        //openOptionsMenu();
 
         gLib = GestureLibraries.fromFile(getExternalFilesDir(null) + "/" + "gesture.txt");
         gLib.load();
